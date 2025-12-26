@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://nomad.opai.online/sitemap.xml
