@@ -8,10 +8,16 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-900">
-    <nav class="bg-white shadow-sm p-4">
-        <div class="max-w-4xl mx-auto flex justify-between">
-            <a href="../index.html" class="font-bold text-blue-600">← Back to Home</a>
-            <span class="text-gray-500 text-sm">Nomad Finance Series #2</span>
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="/" class="text-xl font-bold text-blue-600">NomadYield.</a>
+            <div class="space-x-6 text-sm font-medium">
+                <a href="/" class="hover:text-blue-600">Home</a>
+                <a href="/compare/" class="text-blue-600 font-bold">Detailed Compare</a>
+                <a href="/business/" class="hover:text-blue-600">Business</a>
+                <a href="/crypto-banking/" class="hover:text-blue-600">Crypto Banking</a>
+                <a href="/guides/atm-fees.html" class="hover:text-blue-600">Guides</a>
+            </div>
         </div>
     </nav>
 
@@ -52,11 +58,56 @@
             <p>Wise is more transparent with its fees—you see exactly what you pay up-front. Revolut offers "free" exchanges up to a limit (depending on your plan), but watch out for weekend markups!</p>
         </section>
 
+        <div class="mt-12 grid md:grid-cols-3 gap-4">
+            <a href="/guides/atm-fees.html" class="p-4 border rounded-xl hover:bg-gray-50 text-center">
+                <span class="block text-2xl mb-2">🏧</span>
+                <span class="text-sm font-bold text-blue-600">Avoid ATM Fees</span>
+            </a>
+            <a href="/business/" class="p-4 border rounded-xl hover:bg-gray-50 text-center">
+                <span class="block text-2xl mb-2">💼</span>
+                <span class="text-sm font-bold text-blue-600">Freelancer Banking</span>
+            </a>
+            <a href="/crypto-banking/" class="p-4 border rounded-xl hover:bg-gray-50 text-center">
+                <span class="block text-2xl mb-2">₿</span>
+                <span class="text-sm font-bold text-blue-600">Crypto Friendly</span>
+            </a>
+        </div>
+
         <div class="mt-12 p-8 bg-slate-900 text-white rounded-2xl text-center">
             <h2 class="text-xl font-bold mb-4">Ready to optimize your travel funds?</h2>
             <p class="mb-6 opacity-80">Start with a multi-currency account today.</p>
             <a href="#" class="inline-block bg-blue-500 hover:bg-blue-600 px-8 py-3 rounded-full font-bold transition">Get Started with Wise</a>
         </div>
     </article>
+
+    <footer class="bg-gray-900 text-gray-400 py-12 px-6">
+        <div class="max-w-5xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">NomadYield.</h3>
+                    <p class="text-sm opacity-75">Your trusted guide to global banking and finance for digital nomads.</p>
+                </div>
+                <div>
+                    <h4 class="text-sm font-bold text-white mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/" class="hover:text-blue-400">Home</a></li>
+                        <li><a href="/compare/" class="hover:text-blue-400">Compare Banks</a></li>
+                        <li><a href="/business/" class="hover:text-blue-400">Business Banking</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-sm font-bold text-white mb-4">Resources</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/crypto-banking/" class="hover:text-blue-400">Crypto Banking</a></li>
+                        <li><a href="/guides/atm-fees.html" class="hover:text-blue-400">ATM Fee Guide</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center border-t border-gray-800 pt-8">
+                <p class="mb-4 text-sm px-4">Disclaimer: This website is for informational purposes only and does not constitute financial advice.</p>
+                <p>&copy; 2025 NomadYield Guide. Nomad Finance Series #2.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

@@ -8,9 +8,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-900">
-    <nav class="p-4 border-b bg-white flex justify-between">
-        <a href="/" class="font-bold text-blue-600">NomadYield.</a>
-        <span class="text-sm text-gray-500">Business Edition 2025</span>
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="/" class="text-xl font-bold text-blue-600">NomadYield.</a>
+            <div class="space-x-6 text-sm font-medium">
+                <a href="/" class="hover:text-blue-600">Home</a>
+                <a href="/compare/" class="hover:text-blue-600">Detailed Compare</a>
+                <a href="/business/" class="text-blue-600 font-bold">Business</a>
+                <a href="/crypto-banking/" class="hover:text-blue-600">Crypto Banking</a>
+                <a href="/guides/atm-fees.html" class="hover:text-blue-600">Guides</a>
+            </div>
+        </div>
     </nav>
 
     <header class="py-12 bg-slate-900 text-white text-center px-4">
@@ -53,10 +61,51 @@
             <h2 class="text-2xl font-bold mb-4">Why Freelancers Must Separate Business Finances?</h2>
             <p>Using a personal account for business is the #1 mistake new nomads make. In 2025, banks like Wise and Revolut are freezing personal accounts used for commercial purposes. A business account protects you and makes tax season 10x easier.</p>
         </article>
+
+        <div class="mt-12 grid md:grid-cols-3 gap-4">
+            <a href="/compare/" class="p-4 border rounded-xl hover:bg-gray-50 text-center">
+                <span class="block text-2xl mb-2">⚖️</span>
+                <span class="text-sm font-bold text-blue-600">Compare Banks</span>
+            </a>
+            <a href="/crypto-banking/" class="p-4 border rounded-xl hover:bg-gray-50 text-center">
+                <span class="block text-2xl mb-2">₿</span>
+                <span class="text-sm font-bold text-blue-600">Crypto Banking</span>
+            </a>
+            <a href="/guides/atm-fees.html" class="p-4 border rounded-xl hover:bg-gray-50 text-center">
+                <span class="block text-2xl mb-2">🏧</span>
+                <span class="text-sm font-bold text-blue-600">Avoid ATM Fees</span>
+            </a>
+        </div>
     </main>
 
-    <footer class="py-8 text-center text-gray-500 text-sm">
-        <p>© 2025 NomadYield Guide. All info verified for 2025 tax year.</p>
+    <footer class="bg-gray-900 text-gray-400 py-12 px-6">
+        <div class="max-w-5xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">NomadYield.</h3>
+                    <p class="text-sm opacity-75">Your trusted guide to global banking and finance for digital nomads.</p>
+                </div>
+                <div>
+                    <h4 class="text-sm font-bold text-white mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/" class="hover:text-blue-400">Home</a></li>
+                        <li><a href="/compare/" class="hover:text-blue-400">Compare Banks</a></li>
+                        <li><a href="/business/" class="hover:text-blue-400">Business Banking</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-sm font-bold text-white mb-4">Resources</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/crypto-banking/" class="hover:text-blue-400">Crypto Banking</a></li>
+                        <li><a href="/guides/atm-fees.html" class="hover:text-blue-400">ATM Fee Guide</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center border-t border-gray-800 pt-8">
+                <p class="mb-4 text-sm px-4">Disclaimer: This website is for informational purposes only and does not constitute financial advice.</p>
+                <p>&copy; 2025 NomadYield Guide. All info verified for 2025 tax year.</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
